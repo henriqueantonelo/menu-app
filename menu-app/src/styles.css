@@ -1,0 +1,46 @@
+:root {
+  --primary-color: black;
+  --unselected: #c1beba;
+  --background-gradient: linear-gradient(180deg, white, #e0e0e0);
+  --background-color: white;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.navbar {
+  background-color: var(--background-color);
+  background: var(--background-gradient);
+  display: flex;
+  justify-content: center;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  z-index: 1000;
+}
+
+.navbar-nav {
+  list-style: none;
+  display: flex;
+  margin: 0;
+  padding: 0;
+}
+
+.navbar-item {
+  margin: 0;
+  padding: 0;
+}
+
+.nav-item a {
+  color: var(--unselected);
+  text-decoration: none;
+  padding: 10px 20px;
+  display: block;
+}
+
+.nav-item a:hover {
+  color: var(--primary-color);
+}
