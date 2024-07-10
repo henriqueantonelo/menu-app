@@ -1,0 +1,27 @@
+body {
+  background-color: #181818;
+}
+
+.categories {
+  width: 100vw;
+  background: linear-gradient(180deg, white, #e0e0e0);
+  height: 90vh;
+  position: fixed;
+  bottom: 0;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+  overflow: auto;
+}
+
+.categories-item {
+  background-color: #aeaeae;
+  color: white;
+  text-decoration: none;
+  width: 80%;
+  display: flex;
+  margin: auto;
+  justify-content: space-around;
+  margin-top: 25px;
+  height: 132px;
+  border-radius: 20px;
+}
